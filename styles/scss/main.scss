@@ -107,6 +107,10 @@ a:active {
 	text-align: center;
 }
 
+.bob-font {
+	font-family: $main-font;
+}
+
 .main-home-text {
 	width:770px;
 	font-size:1.5em;
@@ -133,7 +137,7 @@ overflow: hidden;
 position: absolute;
 top: 0;
 left: 0;
-width: 100%;
+width: 80%;
 height: 100%;
 }
 

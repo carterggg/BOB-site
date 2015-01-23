@@ -284,17 +284,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/gallery\/aboutusimage.JPG": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 54371,
-		"inputAbbreviatedPath": "\/images\/gallery\/aboutusimage.JPG",
-		"outputAbbreviatedPath": "\/images\/gallery\/aboutusimage.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/gallery\/contactphotoimage.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -313,6 +302,17 @@
 		"initialSize": 667045,
 		"inputAbbreviatedPath": "\/images\/gallery\/lilwayneboltznecklace.jpg",
 		"outputAbbreviatedPath": "\/images\/gallery\/lilwayneboltznecklace.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/layout\/aboutusimage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54371,
+		"inputAbbreviatedPath": "\/images\/layout\/aboutusimage.jpg",
+		"outputAbbreviatedPath": "\/images\/layout\/aboutusimage.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
