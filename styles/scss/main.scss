@@ -1,0 +1,217 @@
+$main-color: black;
+$main-color2: white;
+$main-color3: grey;
+$main-font: 'monacoregular';
+
+
+/* BASE */ 
+
+body, nav {
+	background-color:$main-color2;
+	font-family:$main-font;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:$main-font;
+}
+
+ul {
+	display: inline;
+	padding: 10px;
+	list-style: none;
+}
+
+/* mouse over li */
+li:hover {
+	text-decoration: none;
+    background-color: $main-color2;
+	color: $main-color;
+}
+
+/* .nav-a unvisited link */
+p a:link {
+	text-decoration: none;
+	background-color: $main-color;
+	color: $main-color2;
+}
+
+/* .nav-a visited link */
+p a:visited {
+	text-decoration: none;
+	background-color: $main-color;
+	color: $main-color2;
+}
+
+/* .nav-a mouse over link */
+p a:hover {
+	text-decoration: none;
+	background-color: $main-color2;
+	color: $main-color;
+}
+
+/* .nav-a selected link */
+p a:active {
+	text-decoration: none;
+	background-color: $main-color;
+	color: $main-color2;
+}
+
+/* .nav-a unvisited link */
+h2 a:link {
+	text-decoration: none;
+	background-color: $main-color;
+	color: $main-color2;
+}
+
+/* .nav-a visited link */
+h2 a:visited {
+	text-decoration: none;
+	background-color: $main-color;
+	color: $main-color2;
+}
+
+/* .nav-a mouse over link */
+h2 a:hover {
+	text-decoration: none;
+	background-color: $main-color2;
+	color: $main-color;
+}
+
+/* .nav-a selected link */
+h2 a:active {
+	text-decoration: none;
+	background-color: $main-color;
+	color: $main-color2;
+}
+
+
+
+
+/* LAYOUT */ 
+
+
+/* .nav-a unvisited link */
+.nav-a a:link {
+	text-decoration: none;
+	background-color: $main-color;
+	color: $main-color2;
+}
+
+/* .nav-a visited link */
+.nav-a a:visited {
+	text-decoration: none;
+	background-color: $main-color;
+	color: $main-color2;
+}
+
+/* .nav-a mouse over link */
+.nav-a a:hover {
+	text-decoration: none;
+	background-color: $main-color2;
+	color: $main-color;
+}
+
+/* .nav-a selected link */
+.nav-a a:active {
+	text-decoration: none;
+	background-color: $main-color;
+	color: $main-color2;
+}
+
+.top_space {
+	height: 200px;
+}
+
+.main-nav {
+	background-color: $main-color;
+	color: $main-color2;
+	padding: 12px;
+	margin: 4px;
+	width: 100%;    /* 170px */
+	font-family: 'monacoregular';
+	font-size: 1.2em;
+}
+
+
+
+.fixed-nav {
+	position: fixed;
+	width: 15%;
+}
+
+.align-right {
+	text-align: right;
+}
+.align-center {
+	text-align: center;
+}
+
+.center-img {
+	margin: auto;
+	padding: auto;
+}
+
+.center-pagination {
+	text-align:center;
+}
+
+
+.toggle-info, .toggle-info2 {
+	display: none;
+}
+
+.centered-gallery {
+	margin: auto;
+	padding: auto;
+}
+
+
+
+
+/* Video EMBed responsive code */
+
+.responsive-vid {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 60px; 
+overflow: hidden;
+}
+
+
+.responsive-vid iframe,
+.responsive-vid object,
+.responsive-vid embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+/* END OF = Video EMBed responsive code */
+
+
+/* MODULE */ 
+/* STATE */ 
+/* THEME */ 
+
+
+/* FORM */
+input,textarea {
+	display:block;
+	margin-bottom: 15px;
+	width: 100%;
+	border: black solid 1px;
+}
+
+label {
+	margin-bottom: 0px;	
+}
+
+.error {
+	color:blue;
+}
+
+form{
+	width:100%;
+}

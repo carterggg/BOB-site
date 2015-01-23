@@ -1,0 +1,208 @@
+/* BASE */
+body, nav {
+  background-color: white;
+  font-family: "monacoregular"; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "monacoregular"; }
+
+ul {
+  display: inline;
+  padding: 10px;
+  list-style: none; }
+
+/* mouse over li */
+li:hover {
+  text-decoration: none;
+  background-color: white;
+  color: black; }
+
+/* .nav-a unvisited link */
+p a:link {
+  text-decoration: none;
+  background-color: black;
+  color: white; }
+
+/* .nav-a visited link */
+p a:visited {
+  text-decoration: none;
+  background-color: black;
+  color: white; }
+
+/* .nav-a mouse over link */
+p a:hover {
+  text-decoration: none;
+  background-color: white;
+  color: black; }
+
+/* .nav-a selected link */
+p a:active {
+  text-decoration: none;
+  background-color: black;
+  color: white; }
+
+/* .nav-a unvisited link */
+h2 a:link {
+  text-decoration: none;
+  background-color: black;
+  color: white; }
+
+/* .nav-a visited link */
+h2 a:visited {
+  text-decoration: none;
+  background-color: black;
+  color: white; }
+
+/* .nav-a mouse over link */
+h2 a:hover {
+  text-decoration: none;
+  background-color: white;
+  color: black; }
+
+/* .nav-a selected link */
+h2 a:active {
+  text-decoration: none;
+  background-color: black;
+  color: white; }
+
+/* LAYOUT */
+.val-style {
+  font-family: "monacoregular";
+  margin: auto;
+  color: black; }
+
+.val-background {
+  padding: auto;
+  margin: auto; }
+
+/* .nav-a unvisited link */
+.nav-a a:link {
+  text-decoration: none;
+  background-color: black;
+  color: white; }
+
+/* .nav-a visited link */
+.nav-a a:visited {
+  text-decoration: none;
+  background-color: black;
+  color: white; }
+
+/* .nav-a mouse over link */
+.nav-a a:hover {
+  text-decoration: none;
+  background-color: white;
+  color: black; }
+
+/* .nav-a selected link */
+.nav-a a:active {
+  text-decoration: none;
+  background-color: black;
+  color: white; }
+
+.top_space {
+  height: 200px; }
+
+.main-nav {
+  background-color: black;
+  color: white;
+  padding: 12px;
+  margin: 4px;
+  width: 100%;
+  /* 170px */
+  font-family: 'monacoregular';
+  font-size: 1.2em; }
+
+.main-logo {
+  height: 200px;
+  width: auto; }
+
+.main-photo {
+  width: 450px;
+  height: auto;
+  margin: auto;
+  padding: auto; }
+
+.fixed-nav {
+  position: fixed;
+  width: 15%; }
+
+.align-right {
+  text-align: right; }
+
+.align-center {
+  text-align: center; }
+
+.center-img {
+  margin: auto;
+  padding: auto; }
+
+.center-pagination {
+  text-align: center; }
+
+.background-comic {
+  background-image: url("ne-comic.png");
+  background-repeat: repeat-y;
+  width: 100%;
+  height: 100%; }
+
+.toggle-info, .toggle-info2 {
+  display: none; }
+
+.centered-gallery {
+  margin: auto;
+  padding: auto; }
+
+.active {
+  color: black;
+  background-color: white; }
+
+.block-level {
+  display: inline; }
+
+.underlined {
+  border-bottom: solid 5px;
+  font-weight: bold;
+  font-family: "monacoregular"; }
+
+/* Video EMBed responsive code */
+.responsive-vid {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 60px;
+  overflow: hidden; }
+
+.responsive-vid iframe,
+.responsive-vid object,
+.responsive-vid embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/* END OF = Video EMBed responsive code */
+/* MODULE */
+/* STATE */
+/* THEME */
+/* FORM */
+input, textarea {
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
+  border: black solid 1px; }
+
+label {
+  margin-bottom: 0px; }
+
+.error {
+  color: blue; }
+
+form {
+  width: 100%; }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (min-width: 320px) and (max-width: 1400px) {
+  /* Styles */
+  .centered-gallery img {
+    width: 100%;
+    height: 100%; } }
