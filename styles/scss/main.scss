@@ -1,18 +1,19 @@
 $main-color: black;
 $main-color2: white;
-$main-color3: grey;
-$main-font: 'monacoregular';
+$main-color3: #1B1B1B;
+$main-color4: #a5c9b5;
+$main-font: 'hill_houseregular';
 
 
 /* BASE */ 
 
-body, nav {
-	background-color:$main-color2;
-	font-family:$main-font;
+* {
+	margin:auto;
+	padding:auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family:$main-font;
+body {
+	background-color:$main-color2;
 }
 
 ul {
@@ -21,102 +22,38 @@ ul {
 	list-style: none;
 }
 
-/* mouse over li */
-li:hover {
-	text-decoration: none;
-    background-color: $main-color2;
-	color: $main-color;
+nav ul li a {
+	color:$main-color2;	
 }
 
-/* .nav-a unvisited link */
-p a:link {
-	text-decoration: none;
-	background-color: $main-color;
-	color: $main-color2;
+h3 a {
+	color:$main-color;
+}
+/* unvisited link */
+a:link {
+  	text-decoration: none; 
+	
 }
 
-/* .nav-a visited link */
-p a:visited {
-	text-decoration: none;
-	background-color: $main-color;
-	color: $main-color2;
+/* visited link */
+a:visited {
+  	text-decoration: none;
+
 }
 
-/* .nav-a mouse over link */
-p a:hover {
-	text-decoration: none;
-	background-color: $main-color2;
-	color: $main-color;
+/* mouse over link */
+a:hover {
+  	text-decoration: none;
+	color: $main-color4;
 }
 
-/* .nav-a selected link */
-p a:active {
-	text-decoration: none;
-	background-color: $main-color;
-	color: $main-color2;
+/* selected link */
+a:active {
+  	text-decoration: none;
+	color: $main-color4;
 }
-
-/* .nav-a unvisited link */
-h2 a:link {
-	text-decoration: none;
-	background-color: $main-color;
-	color: $main-color2;
-}
-
-/* .nav-a visited link */
-h2 a:visited {
-	text-decoration: none;
-	background-color: $main-color;
-	color: $main-color2;
-}
-
-/* .nav-a mouse over link */
-h2 a:hover {
-	text-decoration: none;
-	background-color: $main-color2;
-	color: $main-color;
-}
-
-/* .nav-a selected link */
-h2 a:active {
-	text-decoration: none;
-	background-color: $main-color;
-	color: $main-color2;
-}
-
-
-
 
 /* LAYOUT */ 
-
-
-/* .nav-a unvisited link */
-.nav-a a:link {
-	text-decoration: none;
-	background-color: $main-color;
-	color: $main-color2;
-}
-
-/* .nav-a visited link */
-.nav-a a:visited {
-	text-decoration: none;
-	background-color: $main-color;
-	color: $main-color2;
-}
-
-/* .nav-a mouse over link */
-.nav-a a:hover {
-	text-decoration: none;
-	background-color: $main-color2;
-	color: $main-color;
-}
-
-/* .nav-a selected link */
-.nav-a a:active {
-	text-decoration: none;
-	background-color: $main-color;
-	color: $main-color2;
-}
 
 .top_space {
 	height: 200px;
@@ -125,47 +62,59 @@ h2 a:active {
 .main-nav {
 	background-color: $main-color;
 	color: $main-color2;
-	padding: 12px;
-	margin: 4px;
+	margin:5px;
+	padding-top: 6px;
 	width: 100%;    /* 170px */
-	font-family: 'monacoregular';
-	font-size: 1.2em;
+	font-family: $main-font;
+	font-size: 3em;
+	text-align: center;
 }
 
+.black-background {
+	background-color: $main-color;
+}
 
+.grey-background {
+	background-color: $main-color3;	
+}
 
-.fixed-nav {
-	position: fixed;
-	width: 15%;
+.white-background {
+	background-color: $main-color2;
+}
+
+.white-text {
+	color: $main-color2;
+}
+
+.black-text {
+	color: $main-color;
 }
 
 .align-right {
 	text-align: right;
-}
-.align-center {
-	text-align: center;
+	float: right;
 }
 
-.center-img {
-	margin: auto;
-	padding: auto;
+.align-center {
+	text-align: center;
 }
 
 .center-pagination {
 	text-align:center;
 }
 
+.iframe-center {
+	text-align: center;
+}
+
+.main-home-text {
+	width:770px;
+	font-size:1.5em;
+}
 
 .toggle-info, .toggle-info2 {
 	display: none;
 }
-
-.centered-gallery {
-	margin: auto;
-	padding: auto;
-}
-
-
 
 
 /* Video EMBed responsive code */
