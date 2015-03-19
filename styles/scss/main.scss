@@ -1,9 +1,8 @@
 $main-color: black;
-$main-color2: white;
+$main-color2: tan;
 $main-color3: #1B1B1B;
 $main-color4: #a5c9b5;
 $main-font: 'hill_houseregular';
-
 
 /* BASE */ 
 
@@ -105,7 +104,8 @@ a:active {
 
 .iframe-center {
 	text-align: center;
-}
+	margin:auto;
+}  
 
 .bob-font {
 	font-family: $main-font;
@@ -128,6 +128,7 @@ position: relative;
 padding-bottom: 56.25%;
 padding-top: 60px; 
 overflow: hidden;
+
 }
 
 
