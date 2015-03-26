@@ -1,5 +1,5 @@
 $main-color: black;
-$main-color2: tan;
+$main-color2: white;
 $main-color3: #1B1B1B;
 $main-color4: #a5c9b5;
 $main-font: 'hill_houseregular';
@@ -96,16 +96,19 @@ a:active {
 
 .align-center {
 	text-align: center;
+	margin: auto;
 }
 
-.center-pagination {
-	text-align:center;
-}
 
 .iframe-center {
 	text-align: center;
 	margin:auto;
 }  
+
+.iframe-center2 {
+	text-align: center;
+}  
+
 
 .bob-font {
 	font-family: $main-font;
@@ -168,4 +171,22 @@ label {
 
 form{
 	width:100%;
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (min-width: 0px) and (max-width: 620px) {
+
+ .iframe-center iframe {
+	margin-left: 30px;
+}	
+}
+
+@media (min-width: 621px) and (max-width:2000px) {
+	.responsive-vid {
+		margin-left:150px;
+	}
+	
+	
 }

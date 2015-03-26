@@ -1,1 +1,135 @@
-*{margin:auto;padding:auto}body{background-color:tan}ul{display:inline;padding:10px;list-style:none}nav ul li a{color:tan}h3 a{color:#000}a:link{text-decoration:none}a:visited{text-decoration:none}a:hover{text-decoration:none;color:#a5c9b5}a:active{text-decoration:none;color:#a5c9b5}.top_space{height:200px}.main-nav{background-color:#000;color:tan;margin:5px;padding-top:6px;width:100%;font-family:"hill_houseregular";font-size:3em;text-align:center}.black-background{background-color:#000}.grey-background{background-color:#1B1B1B}.white-background{background-color:tan}.white-text{color:tan}.black-text{color:#000}.align-right{text-align:right;float:right}.align-center{text-align:center}.center-pagination{text-align:center}.iframe-center{text-align:center;margin:auto}.bob-font{font-family:"hill_houseregular"}.main-home-text{width:770px;font-size:1.5em}.toggle-info,.toggle-info2{display:none}.responsive-vid{position:relative;padding-bottom:56.25%;padding-top:60px;overflow:hidden;margin:auto;padding-right:100px}.responsive-vid iframe,.responsive-vid object,.responsive-vid embed{position:absolute;top:0;left:0;width:80%;height:100%}input,textarea{display:block;margin-bottom:15px;width:100%;border:black solid 1px}label{margin-bottom:0px}.error{color:blue}form{width:100%}
+/* BASE */
+* {
+  margin: auto;
+  padding: auto; }
+
+body {
+  background-color: white; }
+
+ul {
+  display: inline;
+  padding: 10px;
+  list-style: none; }
+
+nav ul li a {
+  color: white; }
+
+h3 a {
+  color: black; }
+
+/* unvisited link */
+a:link {
+  text-decoration: none; }
+
+/* visited link */
+a:visited {
+  text-decoration: none; }
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+  color: #a5c9b5; }
+
+/* selected link */
+a:active {
+  text-decoration: none;
+  color: #a5c9b5; }
+
+/* LAYOUT */
+.top_space {
+  height: 200px; }
+
+.main-nav {
+  background-color: black;
+  color: white;
+  margin: 5px;
+  padding-top: 6px;
+  width: 100%;
+  /* 170px */
+  font-family: "hill_houseregular";
+  font-size: 3em;
+  text-align: center; }
+
+.black-background {
+  background-color: black; }
+
+.grey-background {
+  background-color: #1B1B1B; }
+
+.white-background {
+  background-color: white; }
+
+.white-text {
+  color: white; }
+
+.black-text {
+  color: black; }
+
+.align-right {
+  text-align: right;
+  float: right; }
+
+.align-center {
+  text-align: center;
+  margin: auto; }
+
+.iframe-center {
+  text-align: center;
+  margin: auto; }
+
+.iframe-center2 {
+  text-align: center; }
+
+.bob-font {
+  font-family: "hill_houseregular"; }
+
+.main-home-text {
+  width: 770px;
+  font-size: 1.5em; }
+
+.toggle-info, .toggle-info2 {
+  display: none; }
+
+/* Video EMBed responsive code */
+.responsive-vid {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 60px;
+  overflow: hidden; }
+
+.responsive-vid iframe,
+.responsive-vid object,
+.responsive-vid embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%; }
+
+/* END OF = Video EMBed responsive code */
+/* MODULE */
+/* STATE */
+/* THEME */
+/* FORM */
+input, textarea {
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
+  border: black solid 1px; }
+
+label {
+  margin-bottom: 0px; }
+
+.error {
+  color: blue; }
+
+form {
+  width: 100%; }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (min-width: 0px) and (max-width: 620px) {
+  .iframe-center iframe {
+    margin-left: 30px; } }
+@media (min-width: 621px) and (max-width: 2000px) {
+  .responsive-vid {
+    margin-left: 150px; } }

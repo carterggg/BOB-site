@@ -793,7 +793,7 @@
 		"outputAbbreviatedPath": "\/styles\/css\/main.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -824,9 +824,9 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "BOB-site",
+	"displayValue": "site",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_gray"
+	"iconImageName": "brackets_brown"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
