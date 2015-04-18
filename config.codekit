@@ -47,6 +47,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/bc.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.25716e+06,
+		"inputAbbreviatedPath": "\/images\/bc.jpg",
+		"outputAbbreviatedPath": "\/images\/bc.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/friendz\/feverimage.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -597,6 +608,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/lend-a-hand.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 780346,
+		"inputAbbreviatedPath": "\/images\/lend-a-hand.jpg",
+		"outputAbbreviatedPath": "\/images\/lend-a-hand.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ooshirts.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -604,6 +626,28 @@
 		"initialSize": 22480,
 		"inputAbbreviatedPath": "\/images\/ooshirts.png",
 		"outputAbbreviatedPath": "\/images\/ooshirts.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/plyz.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.03555e+06,
+		"inputAbbreviatedPath": "\/images\/plyz.png",
+		"outputAbbreviatedPath": "\/images\/plyz.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/select2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9.23446e+06,
+		"inputAbbreviatedPath": "\/images\/select2.jpg",
+		"outputAbbreviatedPath": "\/images\/select2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -710,6 +754,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/main.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/styles\/css\/blueimp-gallery.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -773,15 +826,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/styles\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/styles\/scss\/main.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -790,9 +834,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/styles\/scss\/main.scss",
-		"outputAbbreviatedPath": "\/styles\/css\/main.css",
+		"outputAbbreviatedPath": "\/Users\/carterguthrie\/Desktop\/Projects\/Sk8tarded Designs\/Business\/Boltz on Board\/BOB-site\/main.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
