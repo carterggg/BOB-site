@@ -388,6 +388,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/layout\/donate1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 185090,
+		"inputAbbreviatedPath": "\/images\/layout\/donate1.jpg",
+		"outputAbbreviatedPath": "\/images\/layout\/donate1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/layout\/donate2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 199890,
+		"inputAbbreviatedPath": "\/images\/layout\/donate2.jpg",
+		"outputAbbreviatedPath": "\/images\/layout\/donate2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/layout\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -516,6 +538,28 @@
 		"initialSize": 16494,
 		"inputAbbreviatedPath": "\/images\/layout\/recycleboltzback.png",
 		"outputAbbreviatedPath": "\/images\/layout\/recycleboltzback.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/layout\/ring-sizer1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 313278,
+		"inputAbbreviatedPath": "\/images\/layout\/ring-sizer1.jpg",
+		"outputAbbreviatedPath": "\/images\/layout\/ring-sizer1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/layout\/ring-sizer2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 320344,
+		"inputAbbreviatedPath": "\/images\/layout\/ring-sizer2.jpg",
+		"outputAbbreviatedPath": "\/images\/layout\/ring-sizer2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -822,6 +866,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/styles\/css\/bootstrap.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/styles\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/styles\/css\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

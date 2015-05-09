@@ -4,8 +4,7 @@
   padding: auto; }
 
 body {
-  background-color: white;
-  background-image: url(images/plyz.png); }
+  background-image: url("images/plyz.png"); }
 
 ul {
   display: inline;
