@@ -50,6 +50,10 @@ a:active {
   font-size: 3em;
   text-align: center; }
 
+.getonboard-nav-size {
+	font-size: 2em;	
+}
+
 .black-background {
   background-color: black; }
 
