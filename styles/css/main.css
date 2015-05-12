@@ -51,7 +51,8 @@ a:active {
   text-align: center; }
 
 .getonboard-nav-size {
-	font-size: 2em;	
+	font-size: 2em;
+	font-weight: 100;
 }
 
 .black-background {

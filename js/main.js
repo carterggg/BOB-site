@@ -6,9 +6,6 @@ $(".toggle").click(function(){
 
 
 
-
-
-
 $(document).ready(function(){
 
 	//dynamically load content from content.html 
